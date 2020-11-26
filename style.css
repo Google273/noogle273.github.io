@@ -2,6 +2,10 @@ html {
 		 width: 100%;
     max-width: 100%;
     overflow-x: hidden;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 body {
 	padding: 0;
@@ -9,6 +13,10 @@ body {
 	font-family: 'Montserrat', sans-serif;
 		overflow-x: hidden;
 	 width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-x: hidden;
+    width: 100%;
     max-width: 100%;
     overflow-x: hidden;	
 }
@@ -293,6 +301,10 @@ color: #CBCFD4;
 	display: none;
 }
 @media screen and (max-width: 575px) {
+#img-man {
+    float: right;
+    /* margin-top: -83px; */
+}
 #mobile-icon, #close-icon {
 	height: 33px;
     margin-left: 74px;
@@ -356,10 +368,27 @@ footer {
 #buy {
 	display: none;
 }
+#mobile-menu li {
+    display: none;
+    margin-top: 19px;
+    margin-left: 81px;
+}
+#img-man {
+    float: right;
+    margin-top: 1px;
+}
+#img-woman {
+    float: right;
+    margin-top: 1px;
+}
 }
 
 
 @media screen and (max-width: 767px) {
+#img-man {
+    float: right;
+    /* margin-top: -83px; */
+}
 .social {
 	display: none;
 }
@@ -389,17 +418,47 @@ ul a {
 	display: block;
 	    margin-left: 0px;
 }
+#mobile-menu li {
+    display: none;
+    margin-top: 19px;
+    margin-left: 81px;
+}
+#img-man {
+    float: right;
+    margin-top: 1px;
+}
+#img-woman {
+    float: right;
+    margin-top: 1px;
+}
 }
 
 @media screen and (max-width: 1199px) {
+#img-man {
+    float: right;
+    /* margin-top: -83px; */
+}
 #mobile-menu {
 	display: block;
 	    margin-left: 0px;
 }
-
+#mobile-menu li {
+    display: none;
+    margin-top: 19px;
+    margin-left: 81px;
+}
+#img-man {
+    float: right;
+    margin-top: 1px;
+}
+#img-woman {
+    float: right;
+    margin-top: 1px;
+}
 }
 
 @media screen and (max-width: 1200px) {
+
 #mobile-icon, #close-icon {
 	height: 33px;
     margin-left: 74px;
@@ -459,5 +518,18 @@ footer {
     display: flex;
     margin-left: -91px;
     margin-top: 126px;
+}
+#mobile-menu li {
+    display: none;
+    margin-top: 19px;
+    margin-left: 81px;
 }	
+#img-man {
+    float: right;
+    margin-top: 1px;
+}
+#img-woman {
+    float: right;
+    margin-top: 1px;
+}
 }
